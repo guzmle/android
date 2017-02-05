@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple" />
+
+    <ImageButton
+        android:id="@+id/botonImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"/>
+
+
+    <Button
+        android:id="@+id/botonImagenTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="Boton con Imagen"/>
+
+    <Button
+        android:id="@+id/botonImagenTexto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
+        android:text="Boton con Imagen 2"/>
+
+
+    <Button
+        android:id="@+id/botonSinBorde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_edit"
+        android:text="Boton sin Borde"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/botonEstilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boton"
+        android:background="@drawable/boton_customizado"/>
+
+</LinearLayout>

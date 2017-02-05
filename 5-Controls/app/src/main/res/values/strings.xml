@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Controls</string>
+    <string-array name="nombres">
+        <item>Leonardo</item>
+        <item>Juan</item>
+        <item>Pedro</item>
+        <item>Maria</item>
+        <item>Ana</item>
+    </string-array>
+</resources>
