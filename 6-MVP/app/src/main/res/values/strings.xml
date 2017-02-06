@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="nombre_usuario">Nombre</string>
+    <string name="apellido_usuario">Apellido</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="telefono">Telefono</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="numeroDocumento">Numero Documento</string>
+</resources>
